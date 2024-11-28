@@ -17,4 +17,14 @@
 	<None Include="LICENSE.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SupersetClientBase\SupersetClientBase.csproj" />
+  </ItemGroup>
+
 </Project>
