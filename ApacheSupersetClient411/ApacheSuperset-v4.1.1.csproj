@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<PackageId>ApacheSupersetClient.411</PackageId>
+	<Version>2024.11.27</Version>
+	<Authors>ngtduc693</Authors>
+	<Description>**SupersetClient** is a .NET library designed to integrate seamlessly with **Apache Superset 4.1.1**. It simplifies interaction with Superset's REST API, allowing developers to manage dashboards, charts, datasets, and more from .NET applications.</Description>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<None Include="README.md" Pack="true" PackagePath="\" />
+	<None Include="LICENSE.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

@@ -1,6 +1,6 @@
-# SupersetClient
+﻿# SupersetClient v4.1.1
 
-**SupersetClient** is a .NET library designed to integrate seamlessly with **Apache Superset since version 4.1.1**. It simplifies interaction with Superset's REST API, allowing developers to manage dashboards, charts, datasets, and more from .NET applications.
+**SupersetClient** is a .NET library designed to integrate seamlessly with **Apache Superset 4.1.1**. It simplifies interaction with Superset's REST API, allowing developers to manage dashboards, charts, datasets, and more from .NET applications.
 
 ## Features
 
